@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const activityElement = document.getElementById('github-activity');
     
     try {
-        const response = await fetch('https://api.github.com/users/TheOrangePuff/events');
+        const response = await fetch('https://api.github.com/users/daniel-vdp/events');
         const events = await response.json();
         
         if (!response.ok) {
